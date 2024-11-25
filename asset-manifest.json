@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/app-todos/static/css/main.2fe8b537.css",
-    "main.js": "/app-todos/static/js/main.a5beef64.js",
-    "static/media/background-anime1.jpg": "/app-todos/static/media/background-anime1.e0371ee7619047bf52e0.jpg",
-    "index.html": "/app-todos/index.html",
-    "main.2fe8b537.css.map": "/app-todos/static/css/main.2fe8b537.css.map",
-    "main.a5beef64.js.map": "/app-todos/static/js/main.a5beef64.js.map"
+    "main.css": "/frankman254.github.io/static/css/main.dcab993a.css",
+    "main.js": "/frankman254.github.io/static/js/main.d9698143.js",
+    "static/media/background-anime1.jpg": "/frankman254.github.io/static/media/background-anime1.e0371ee7619047bf52e0.jpg",
+    "index.html": "/frankman254.github.io/index.html",
+    "main.dcab993a.css.map": "/frankman254.github.io/static/css/main.dcab993a.css.map",
+    "main.d9698143.js.map": "/frankman254.github.io/static/js/main.d9698143.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fe8b537.css",
-    "static/js/main.a5beef64.js"
+    "static/css/main.dcab993a.css",
+    "static/js/main.d9698143.js"
   ]
 }
