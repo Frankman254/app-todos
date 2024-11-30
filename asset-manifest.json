@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/app-todos/static/css/main.10a7c3eb.css",
+    "main.css": "/app-todos/static/css/main.89a5d9da.css",
     "main.js": "/app-todos/static/js/main.a2b613e3.js",
     "static/media/background-anime1.jpg": "/app-todos/static/media/background-anime1.e0371ee7619047bf52e0.jpg",
     "index.html": "/app-todos/index.html",
-    "main.10a7c3eb.css.map": "/app-todos/static/css/main.10a7c3eb.css.map",
+    "main.89a5d9da.css.map": "/app-todos/static/css/main.89a5d9da.css.map",
     "main.a2b613e3.js.map": "/app-todos/static/js/main.a2b613e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.10a7c3eb.css",
+    "static/css/main.89a5d9da.css",
     "static/js/main.a2b613e3.js"
   ]
 }
