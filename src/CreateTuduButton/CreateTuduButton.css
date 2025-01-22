@@ -1,0 +1,38 @@
+.CreateTuduButton {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+    z-index: 1;
+}
+
+.CreateTuduButton {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    right: 24px;
+    bottom: 24px;
+    border-radius: 30px;
+    padding-left: 13px;
+    padding-bottom: 5px;
+    background-image: var(--primary-color-5);
+    /* box-shadow: 0 20px 30px -6px rgba(238, 103, 97, 0.5); */
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 60px;
+    color: white;
+/* position: relative; */
+}
+
+.CreateTuduButton:hover {
+transform: rotate(360deg) scale(1.2);
+/* transform: scale(1.2); */
+box-shadow: none;
+}
+
+.CreateTuduButton:active {
+opacity: 0.5;
+transform: scale(1.5);
+}

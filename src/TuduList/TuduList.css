@@ -1,0 +1,16 @@
+.Child {
+    margin: 0;
+    padding: 0 0 56px 0;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    /* background-color: #fff2; */
+    /* font-size: 20px;
+    color: #1E1E1F; */
+    /* padding-top: 50px; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

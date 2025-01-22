@@ -1,0 +1,37 @@
+
+.Icon {
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 34px;
+    font-size: 30px;
+    /* background-color: blue; */
+}
+.Icon-check {
+    position: absolute;
+    left: 0px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.Icon-check--active {
+    color: #0abb10;
+}
+.Icon-delete {
+    position: absolute;
+    top: -24px;
+    right: 0;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.Icon-delete:hover{
+    color: red;
+    transform: scale(1.3); 
+}
+.Icon-check:hover {
+    transform: scale(1.3);
+}
+.Icon-check--active:hover {
+    
+    transform: scale(1.3); 
+}

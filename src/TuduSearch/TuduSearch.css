@@ -1,0 +1,46 @@
+.TuduSearchDiv {
+    padding: 100px 0 0 0;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-color-3);
+}
+.TuduSearchWrapper {
+    position: relative; 
+    width: clamp(250px, 80%, 500px);
+}
+.TuduSearchInput{
+    width: 100%;
+    padding: 15px;
+    padding-right: 40px;
+    border: 1px solid var(--primary-color-3);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    background: var(--faq-color);
+    color: var(--text-color-placeholder);
+    box-sizing: border-box;
+
+}
+
+.TuduSearchInput:hover{
+    border: 1px solid var(--primary-color-4);
+}
+
+.TuduSearchInput:focus{
+    color: var(--primary-color-3);
+}
+.ClearInput {
+    position: absolute;
+    top: 50%; 
+    right: 10px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 30px; 
+    color: gray;
+}
+.ClearInput:hover {
+    color: var(--primary-color-3);
+
+}

@@ -1,0 +1,36 @@
+.TodoItem {
+    border-radius: 5px;
+    border:1px solid var(--primary-color-3) ;
+    background-color: var(--text-color-dark);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    /* box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15); */
+    width: clamp(200px, 90%, 900px);
+    color: var(--primary-color-3);
+}
+
+.TodoItem:hover,.TodoItem:focus{
+    color: var(--text-color);
+    background: var(--primary-color-3);
+    border: 1px solid var(--primary-color-4);
+    /* text-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff; */
+    /* box-shadow: 0 0 5px #ee59ee, 0 0 10px #f4bdf4, 0 0 30px #f4bdf4,
+    0 0 100px #f4bdf4; */
+    /* transform: scale(1); */
+}
+
+.TodoItem-p{
+    cursor: pointer;
+    margin: 24px 0 24px 24px;
+    padding: 0 20px;
+    width: calc(100%-120px);
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.TodoItem-p--complete {
+    text-decoration: line-through;
+}
